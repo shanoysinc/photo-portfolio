@@ -1,0 +1,12 @@
+.footer {
+	background-color: rgb(44, 43, 43);
+	color: white;
+	padding: 1.5em 1em;
+	text-align: center;
+	margin: 0 -2em -2em -2em;
+	&__paragraph {
+		& > * {
+			color: white;
+		}
+	}
+}

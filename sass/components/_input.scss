@@ -1,0 +1,13 @@
+.input-field {
+	min-width: 100%;
+	border: 2px solid rgb(247, 247, 247);
+	background-color: rgb(247, 247, 247);
+	padding: 0.8em 0;
+	color: $color-grey-lighter;
+	border-radius: 6px;
+	text-transform: capitalize;
+	padding-left: 1em;
+	&::placeholder {
+		color: $color-grey-lighter;
+	}
+}

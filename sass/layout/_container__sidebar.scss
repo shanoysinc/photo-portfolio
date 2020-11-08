@@ -1,5 +1,8 @@
 .container__sidebar {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+	background-image: linear-gradient(
+			rgba(0, 0, 0, 0.392),
+			rgba(0, 0, 0, 0.392)
+		),
 		url(/img/bgi-img.jpg);
 	background-size: cover;
 }
