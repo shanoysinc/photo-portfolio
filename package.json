@@ -4,12 +4,15 @@
 	"description": "",
 	"main": "index.js",
 	"dependencies": {
+		"node-sass": "^5.0.0",
+		"nodemon": "^2.0.6",
 		"sass": "^1.29.0"
 	},
 	"devDependencies": {},
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"sass": "sass --watch sass/main/main.scss css/styles.css"
+		"compile-sass": "node-sass sass/main/main.scss css/styles.css",
+		"sass": "nodemon -e scss -x \" npm run compile-sass\""
 	},
 	"keywords": [],
 	"author": "",

@@ -1,0 +1,21 @@
+.photo__card > * {
+	padding-top: 0.25em;
+}
+.photo__card {
+	overflow: hidden;
+
+	&-img {
+		border-radius: 10px;
+		// width: 100%;
+		object-fit: cover;
+		width: 100%;
+		height: 230px;
+		// padding-top: 2em;
+	}
+	&-title {
+		color: $color-grey-light;
+	}
+	&-paragraph {
+		color: $color-grey-lighter;
+	}
+}

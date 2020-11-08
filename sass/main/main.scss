@@ -1,5 +1,14 @@
 @import "../abstract/variables.scss";
 @import "../base/base.scss";
 
+@import "../layout/grid.scss";
+@import "../layout/container__sidebar.scss";
+@import "../layout/container__main";
+
+@import "../components/main__content";
+@import "../components/button";
+@import "../components/photo__card.scss";
+@import "../components/portfolio";
+
 @import "../base/animation.scss";
 @import "../base/utilities.scss";

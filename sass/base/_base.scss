@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	font-size: 16px;
+}
+
+body {
+	line-height: 1.6;
+}
+
+// media query for phone 480
+// tablet 740
+
+hr {
+	background-color: rgb(221, 221, 221);
+	height: 1.6px;
+	border: none;
+}
+
+.main__content > *,
+.portfolio > * {
+	// padding-top: 0.5em;
+	margin-top: $margin-top-small;
+	margin-bottom: $margin-bottom-small;
+}
