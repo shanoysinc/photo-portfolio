@@ -6,6 +6,7 @@
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
 
-		gap: 1.5em;
+		gap: 1.2em;
+		max-width: 100%;
 	}
 }

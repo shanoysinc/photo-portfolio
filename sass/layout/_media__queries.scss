@@ -1,0 +1,13 @@
+@media (min-width: 500px) {
+	.portfolio {
+		&__project {
+			grid-template-columns: repeat(2, 1fr);
+		}
+	}
+
+	.photo__card {
+		&-img {
+			height: 200px;
+		}
+	}
+}
