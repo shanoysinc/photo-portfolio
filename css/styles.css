@@ -31,7 +31,7 @@ hr {
     object-fit: cover; }
   .sidebar__paragraph {
     color: white;
-    font-size: 1.3em; }
+    font-size: 1.6em; }
   .sidebar__paragraph > span {
     font-size: 1em; }
 
@@ -40,7 +40,7 @@ hr {
 
 .info__title {
   color: #858383;
-  font-size: 1.3em; }
+  font-size: 1.6em; }
 
 .info__paragraph {
   color: #a5a5a5; }
@@ -51,7 +51,7 @@ hr {
 
 .main__content-title {
   color: #858383;
-  font-size: 1.3em; }
+  font-size: 1.6em; }
 
 .main__content-paragraph {
   color: #a5a5a5; }
@@ -120,3 +120,20 @@ hr {
     grid-template-columns: repeat(2, 1fr); }
   .photo__card-img {
     height: 200px; } }
+
+@media (min-width: 720px) {
+  .main__content-title {
+    padding-right: 5em; }
+  .main__content-paragraph {
+    padding-right: 5em; }
+  .info__form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1em; }
+    .info__form > .textarea {
+      grid-column: 1 / span 2; }
+    .info__form > .btn {
+      width: 50%; }
+  .info__form > * {
+    margin-top: 0;
+    margin-bottom: 0; } }

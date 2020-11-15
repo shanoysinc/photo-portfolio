@@ -11,3 +11,32 @@
 		}
 	}
 }
+
+@media (min-width: 720px) {
+	.main__content {
+		&-title {
+			padding-right: 5em;
+		}
+		&-paragraph {
+			padding-right: 5em;
+		}
+	}
+
+	.info {
+		&__form {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1em;
+			& > .textarea {
+				grid-column: 1 / span 2;
+			}
+			& > .btn {
+				width: 50%;
+			}
+		}
+		&__form > * {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+	}
+}
