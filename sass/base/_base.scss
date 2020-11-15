@@ -6,10 +6,8 @@
 
 body {
 	line-height: 1.6;
+	overflow-x: hidden;
 }
-
-// media query for phone 480
-// tablet 740
 
 hr {
 	background-color: rgb(221, 221, 221);
@@ -23,4 +21,15 @@ hr {
 	// padding-top: 0.5em;
 	margin-top: $margin-top-small;
 	margin-bottom: $margin-bottom-small;
+}
+
+.container {
+	background-color: $color-bg;
+}
+
+.horizontal__bar {
+	height: 4px;
+	width: 60px;
+	// background-color: hsl(272, 72%, 52%);
+	background-color: hsl(345, 100%, 59%);
 }

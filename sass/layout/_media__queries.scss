@@ -71,15 +71,20 @@
 		}
 
 		&__paragraph {
-			font-size: $font-size-small;
+			font-size: $font-size-mid;
 		}
 
 		&__paragraph > span {
 			font-size: inherit;
 		}
 	}
+	.portfolio {
+		&__project {
+			gap: 2em;
+		}
+	}
 	.footer {
-		margin: 3em -4.2em -10em -4.2em;
+		margin: 0 -4.1em;
 		&__paragraph {
 			& > * {
 				color: white;

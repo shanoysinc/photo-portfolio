@@ -1,7 +1,7 @@
 .input-field {
 	min-width: 100%;
-	border: 2px solid hsl(0, 0%, 94%);
-	background-color: hsl(0, 0%, 94%);
+	border: 2px solid hsl(220, 17%, 15%);
+	background-color: hsl(220, 17%, 15%);
 	padding: 0.8em 0;
 	color: $color-grey-lighter;
 	border-radius: 6px;
@@ -10,4 +10,9 @@
 	&::placeholder {
 		color: $color-grey-lighter;
 	}
+}
+
+.input-field:focus {
+	border: 2px solid $color-main;
+	outline: none;
 }

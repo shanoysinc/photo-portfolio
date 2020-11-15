@@ -1,10 +1,12 @@
 .info {
+	padding-bottom: 2em;
+	margin-bottom: 2em;
 	&__title {
-		color: $color-grey-light;
+		color: $color-white;
 		font-size: $font-size-mid;
 	}
 	&__paragraph {
-		color: $color-grey-lighter;
+		color: $color-white;
 	}
 
 	&__form > * {

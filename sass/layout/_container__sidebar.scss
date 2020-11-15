@@ -18,12 +18,12 @@
 	}
 
 	&__paragraph {
-		color: white;
+		color: $color-main;
 		font-size: $font-size-small;
 	}
 
 	&__paragraph > span {
 		font-size: inherit;
-		color: hsl(0, 1%, 62%);
+		color: $color-white;
 	}
 }
