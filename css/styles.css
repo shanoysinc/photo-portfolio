@@ -38,7 +38,8 @@ hr {
     height: 120px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #06aca9; }
+    border: 3px solid #06aca9;
+    margin-bottom: 1em; }
   .sidebar__paragraph {
     color: #06aca9;
     font-size: 1.3em; }
