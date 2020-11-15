@@ -17,11 +17,13 @@
 		object-fit: cover;
 		border: 3px solid $color-main;
 		margin-bottom: 1em;
+		animation: bounce-in-fwd 1.1s both;
 	}
 
 	&__paragraph {
 		color: $color-main;
 		font-size: $font-size-small;
+		animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 	}
 
 	&__paragraph > span {

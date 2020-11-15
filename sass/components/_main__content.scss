@@ -2,15 +2,20 @@
 	&-title {
 		color: $color-white;
 		font-size: $font-size-mid;
+		animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 	}
 	&-paragraph {
 		color: $color-white;
 		letter-spacing: 0.02em;
 		font-size: $font-size-xsmall;
+		animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
 	}
 	&-btn {
 		background-color: $color-red;
 		color: $color-white;
+		animation: shake-bottom 0.8s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+			both;
+		animation-delay: 1s;
 		border: 2px solid $color-red;
 	}
 	&-btn:hover {
