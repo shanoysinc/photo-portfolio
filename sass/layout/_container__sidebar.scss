@@ -19,10 +19,11 @@
 
 	&__paragraph {
 		color: white;
-		font-size: $font-size-mid;
+		font-size: $font-size-small;
 	}
 
 	&__paragraph > span {
-		font-size: 1em;
+		font-size: inherit;
+		color: hsl(0, 1%, 62%);
 	}
 }

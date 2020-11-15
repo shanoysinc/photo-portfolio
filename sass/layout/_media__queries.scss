@@ -40,3 +40,50 @@
 		}
 	}
 }
+
+@media (min-width: 970px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+	}
+	.container__sidebar {
+		height: 100%;
+		width: 35%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		left: 0;
+		overflow-x: hidden;
+		display: block;
+		padding-top: 5em;
+	}
+	.container__main {
+		margin-left: 40%;
+		width: 55%;
+	}
+
+	.sidebar {
+		text-align: right;
+		padding-left: 5em;
+		&__portfolio-img {
+			width: 130px;
+			height: 130px;
+		}
+
+		&__paragraph {
+			font-size: $font-size-small;
+		}
+
+		&__paragraph > span {
+			font-size: inherit;
+		}
+	}
+	.footer {
+		margin: 3em -4.2em -10em -4.2em;
+		&__paragraph {
+			& > * {
+				color: white;
+			}
+		}
+	}
+}
