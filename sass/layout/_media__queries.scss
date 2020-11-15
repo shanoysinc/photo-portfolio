@@ -1,4 +1,7 @@
 @media (min-width: 500px) {
+	.container__sidebar {
+		background-position: right;
+	}
 	.portfolio {
 		&__project {
 			grid-template-columns: repeat(2, 1fr);
@@ -64,7 +67,7 @@
 
 	.sidebar {
 		text-align: right;
-		padding-left: 5em;
+		padding-left: 2em;
 		&__portfolio-img {
 			width: 130px;
 			height: 130px;

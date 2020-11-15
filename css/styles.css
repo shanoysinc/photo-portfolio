@@ -9,7 +9,7 @@ body {
 
 hr {
   background-color: #dddddd;
-  height: 1.6px;
+  height: 1.4px;
   border: none; }
 
 .main__content > *,
@@ -27,7 +27,7 @@ hr {
   background-color: #ff2e62; }
 
 .container__sidebar {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(/img/bgi-img.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.392), rgba(0, 0, 0, 0.392)), url(/img/bg-img2.jpg);
   background-size: cover; }
 
 .sidebar {
@@ -142,7 +142,7 @@ hr {
 .footer {
   background-color: #20242d;
   color: white;
-  padding: 1.5em 1.5em;
+  padding: 1em 1.5em;
   text-align: center;
   margin: 0 -2em; }
   .footer__paragraph > * {
@@ -152,6 +152,8 @@ hr {
   color: #858383; }
 
 @media (min-width: 500px) {
+  .container__sidebar {
+    background-position: right; }
   .portfolio__project {
     grid-template-columns: repeat(2, 1fr); }
   .photo__card-img {
@@ -193,7 +195,7 @@ hr {
     width: 55%; }
   .sidebar {
     text-align: right;
-    padding-left: 5em; }
+    padding-left: 2em; }
     .sidebar__portfolio-img {
       width: 130px;
       height: 130px; }
