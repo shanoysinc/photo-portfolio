@@ -63,7 +63,8 @@ hr {
   .info__form > * {
     margin-top: 0.5em;
     margin-bottom: 0.5em; }
-  .info__form > label {
+  .info__form * > label {
+    padding-left: 1.1em;
     color: #e6e6e6; }
 
 .btn {
@@ -234,7 +235,7 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em; }
-    .info__form > .textarea {
+    .info__form .textarea-field {
       grid-column: 1 / span 2; }
     .info__form > .btn {
       width: 50%; }

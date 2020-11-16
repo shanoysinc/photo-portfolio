@@ -100,12 +100,21 @@
                     Accumsan orci faucibus id
                     eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
                 <form class="info__form">
-                    <label for="name">Name</label>
-                    <input type="text" name="name" id="name" class="input-field" placeholder="name">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" class="input-field" placeholder="email">
-                    <label for="feedback">Feedback</label>
-                    <textarea name="feedback" id="feedback" cols="30" rows="10" class="input-field textarea"></textarea>
+                    <div class="name-field">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="input-field" placeholder="name">
+                    </div>
+
+                    <div class="email-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="input-field" placeholder="email">
+                    </div>
+
+                    <div class="textarea-field">
+                        <label for="feedback">Feedback</label>
+                        <textarea name="feedback" id="feedback" cols="30" rows="10"
+                            class="input-field textarea"></textarea>
+                    </div>
                     <button type="submit" class="btn">Submit</button>
                 </form>
             </section>
