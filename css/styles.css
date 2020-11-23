@@ -4,8 +4,9 @@
   font-size: 16px; }
 
 body {
-  line-height: 1.6;
-  overflow-x: hidden; }
+  line-height: 1.7;
+  overflow-x: hidden;
+  font-family: Helvetica, sans-serif; }
 
 hr {
   background-color: #dddddd;
@@ -57,7 +58,7 @@ hr {
   margin-bottom: 2em; }
   .info__title {
     color: #e6e6e6;
-    font-size: 1.6em; }
+    font-size: 1.5em; }
   .info__paragraph {
     color: #e6e6e6; }
   .info__form > * {
@@ -86,13 +87,14 @@ hr {
 
 .main__content-title {
   color: #e6e6e6;
-  font-size: 1.6em;
-  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
+  font-size: 1.5em;
+  animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+  line-height: 1.1; }
 
 .main__content-paragraph {
   color: #e6e6e6;
   letter-spacing: 0.02em;
-  font-size: 1.1em;
+  font-size: 1em;
   animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both; }
 
 .main__content-btn {
@@ -267,7 +269,7 @@ hr {
       width: 130px;
       height: 130px; }
     .sidebar__paragraph {
-      font-size: 1.6em; }
+      font-size: 1.5em; }
     .sidebar__paragraph > span {
       font-size: inherit; }
   .portfolio__project {

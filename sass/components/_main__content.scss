@@ -3,6 +3,7 @@
 		color: $color-white;
 		font-size: $font-size-mid;
 		animation: text-focus-in 1s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+		line-height: 1.1;
 	}
 	&-paragraph {
 		color: $color-white;
